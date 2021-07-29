@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    font-size: 18px;
+}
+.nav-menu{
+    background-color: #333333;
+    color: white;
+    height: 60px;
+    margin: 0;
+}
+.nav-menu a{
+    color: white;
+    font-size: 20px;
+    float: left;
+    position: center;
+    padding: 15px;
+}
+.nav-menu a:hover{
+    background-color: #DDDDDD;
+    color: black;
+}
+.header{
+    height: 500px;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.header h1 span{
+    color:tomato;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding-left: 30px;
+}
+.half-width img{
+    width: 85%;
+}
+.button{
+    padding: 5px 25px;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(180deg,#FF980E,#FF6D3C);
+    border-radius: 10px;
+}
+.about-section{
+    height: 600px;
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.about-section img{
+    width: 70%;
+    margin-left: 2%;
+}
+.about-info{
+    margin-top: 150px;
+    width: 30%;
+}
+.about-info h1{
+    font-size: 35px;
+}
+#recepies{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    height: 700px;
+}
+.card{
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    margin-top: 30px;
+}
+.card-img img{
+    width: 100%;
+}
+.recepies-header h1{
+    text-align: center;
+    font-size: 30px;
+}
+.recepies-header p{
+    text-align: center;
+}
+.card-info h3{
+    font-size: 25px;
+}
+
+#work{
+    height: 500px;
+    background-color: #FDEAEC;
+    padding: 50px 0px;
+}
+#work h1{
+    font-size: 50px;
+}
+.work-info{
+    margin-left: 10%;
+    padding-right: 10%;
+}
+.work-info span{
+    color: tomato;
+}
+
+.follower{
+    height: 250px;
+    width: 70%;
+    margin: 0% 15%;
+    margin-top: 100px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+.follow-info{
+    float: left;
+    margin: 40px 70px;
+    text-align: center;
+}
+.follow-info h1{
+    font-size: 50px;
+}
+#contact{
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+#contact h1{
+    font-size: 40px;
+    margin-top: 80px;
+}
+#contact span{
+    color: tomato;
+}
+.social-icon a{
+    margin-left: 10px;
+    color: white;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.fa{
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 40%;
+}
+.fa:hover{
+    opacity: 0.5;
+}
+.fa-facebook{
+    background-color: blue;
+}
+.fa-twitter{
+    background-color: cyan;
+}
+.fa-instagram{
+    background-color: tomato;
+}
+.fa-youtube{
+    background-color: red;
+}
